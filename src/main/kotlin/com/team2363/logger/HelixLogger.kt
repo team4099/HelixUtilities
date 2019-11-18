@@ -61,7 +61,7 @@ object HelixLogger {
     fun saveLogs() {
         try {
             val data = "${Instant.now()},${DriverStation.getInstance().matchTime},$values"
-            Files.write(file, listOf(data.toString()), StandardOpenOption.APPEND)
+            Files.write(file, listOf(data), StandardOpenOption.APPEND)
         } catch (e: Exception) {
             e.printStackTrace()
         }
