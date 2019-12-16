@@ -1,7 +1,7 @@
 plugins {
     id "java"
-    id "org.jetbrains.kotlin.jvm" version "1.3.60"
-    id "edu.wpi.first.GradleRIO" version "2019.4.1"
+    id "org.jetbrains.kotlin.jvm" version "1.3.61"
+    id "edu.wpi.first.GradleRIO" version "2020.1.1-beta-4" // TODO: change after kickoff release
 }
 
 def ROBOT_MAIN_CLASS = "frc.robot.Main"
